@@ -79,3 +79,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/osdevisnot/osdevisnot.github.io.git
+  branch: master
