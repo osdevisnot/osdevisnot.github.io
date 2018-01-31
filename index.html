@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-113305468-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+  
+  <title>osdevisnot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="osdevisnot">
+<meta property="og:url" content="https://osdevisnot.github.io/index.html">
+<meta property="og:site_name" content="osdevisnot">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="osdevisnot">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">osdevisnot</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://osdevisnot.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-Busy-Developers’-Guide-to-creating-Blog-Site-in-2018" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/" class="article-date">
+  <time datetime="2018-01-31T09:03:21.000Z" itemprop="datePublished">2018-01-31</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/">Busy Developers’ Guide to creating Blog Site in 2018</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> is a fast, simple &amp; powerful blog framework</p>
+<p><a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a> offer free websites for you and your projects. Hosted directly from your GitHub repository.</p>
+<p>This blog post attempts to provide simple guide to get started with <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> and <a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a></p>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/hexo-install.gif" alt="npm makes it possible and really easy to get hexo"></p>
+<h2 id="Create-a-project-for-your-Github-Pages"><a href="#Create-a-project-for-your-Github-Pages" class="headerlink" title="Create a project for your Github Pages"></a>Create a project for your Github Pages</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;username&gt;.github.io</span><br></pre></td></tr></table></figure>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/hexo-init.gif" alt="initialize your blog site with hexo init"></p>
+<p>and cd to the new directory</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd &lt;username&gt;.github.io</span><br></pre></td></tr></table></figure>
+<h2 id="Initialize-git-repo"><a href="#Initialize-git-repo" class="headerlink" title="Initialize git repo"></a>Initialize git repo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init . &amp;&amp; git add . &amp;&amp; git commit -am &apos;first commit&apos;</span><br></pre></td></tr></table></figure>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/git-init.gif" alt="initialize git repository"></p>
+<p>and create a new branch for your repo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b develop</span><br></pre></td></tr></table></figure>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/git-branch.gif" alt="create a separate branch for your site code"></p>
+<details><br> <summary>Pro Tip: Github Pages use <b>master branch</b> from your repo</summary><br><br><em> your blogsite exists on <code>https://&lt;username&gt;.github.io</code>
+</em> git repository for your site exists on <a href="https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git" target="_blank" rel="noopener">https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git</a><br><br><em> github will autiomatically pull all static files <em>*from master branch</em></em> from your repo and deploy it to your site<br>  </details>
+
+<h2 id="Configure-your-site"><a href="#Configure-your-site" class="headerlink" title="Configure your site"></a>Configure your site</h2><p>You can edit <code>_config.yml</code> file at root of repo to configure Hexo. Here is a summary of bare mimimum options you should configure:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: &lt;username&gt;</span><br><span class="line">description: yet another blog site</span><br><span class="line">author: &lt;username&gt;</span><br><span class="line">url: https://&lt;username&gt;.github.io</span><br></pre></td></tr></table></figure>
+<h2 id="Preview-your-site"><a href="#Preview-your-site" class="headerlink" title="Preview your site"></a>Preview your site</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/hexo-server.gif" alt="hexo-server let&#39;s you preview your site"></p>
+<p>And navigate to <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/hexo-default-site.png" alt="default hexo site"></p>
+<h2 id="Setup-deployment-to-Github-Pages"><a href="#Setup-deployment-to-Github-Pages" class="headerlink" title="Setup deployment to Github Pages"></a>Setup deployment to Github Pages</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p><img src="/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/hexo-deployer-git.gif" alt="hexo-deployer-git makes it trivial to deploy your site"></p>
+<p>and add necessary config to <code>_config.yml</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h2 id="Deploy-your-site"><a href="#Deploy-your-site" class="headerlink" title="Deploy your site"></a>Deploy your site</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>Hurray, your site should now be available on <a href="https://&lt;username&gt;.github.io" target="_blank" rel="noopener">https://&lt;username&gt;.github.io</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://osdevisnot.github.io/Busy-Developers’-Guide-to-creating-Blog-Site-in-2018/" data-id="cjd3jvj2x0000sfkykbkfa9xg" class="article-share-link">Teilen</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/deployment/">deployment</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/deployment/">deployment</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/deployment/" style="font-size: 10px;">deployment</a>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 osdevisnot<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
