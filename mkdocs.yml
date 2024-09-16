@@ -1,0 +1,5 @@
+site_name: Uncharted Constructs
+site_description: Exploring the Frontiers of System Design
+site_url: https://osdevisnot.github.io
+theme:
+  name: material
