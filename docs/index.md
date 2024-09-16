@@ -1,18 +1,22 @@
 ---
 title: Home
 hide:
-  - navigation
   - toc
+  - navigation
 ---
 
 ![Image title](images/photo.png){align=right}
 
-:wave: Hey! I’m Abhishek, a Senior Principal Software Engineer at Zillow, where I solve tough problems in **distributed systems design** and **financial tech**. My passion? Building systems that don’t just work—but work **seamlessly**, **securely**, and at **scale**.
+# :wave: Welcome to Uncharted Constructs of Tech, Finance, and Life
 
-Curiosity (and maybe a little too much coffee :coffee:) led me to **distributed computing**, where I learned that **scalability** isn’t just a technical issue - it’s a mindset. Early on, I embraced the challenge of making systems **resilient** and **future-proof**. At Zillow, I’ve shaped platforms that power the home loans business, ensuring they stay scalable and secure, while keeping business needs front and center.
+Hey! I’m Abhishek, a Senior Principal Software Engineer at Zillow, where I solve tough problems in **distributed systems design and architecture** and **finance and mortgage tech**. This space is where I share my journey through **technology**, **finance**, and **life** - exploring how these worlds intersect in meaningful ways.
 
-For me, programming is about **crafting solutions** that matter. It’s more than code—it’s solving real problems with creativity and collaboration. From transforming loan origination at **Ellie Mae** to leveraging **AI** and **machine learning**, I focus on building systems that stand the test of time.
+My journey started with an insatiable curiosity (and maybe a bit too much coffee :coffee:). As I dove into **distributed computing** and **system design**, I learned that scalability isn't just a technical hurdle - it’s a way of thinking. Early on, I began working on systems that needed to be **resilient**, **adaptive**, and **future-ready**. At Zillow, I’ve led the design of platforms powering the home loans business, keeping everything **scalable**, **secure**, and aligned with industry standards.
 
-I believe **sharing knowledge** is key to growth. Through my **blog**, I dive into everything from **system design** to **programming paradigms**, sharing lessons learned and ideas for building better systems.
+Beyond the technical world, I believe that **finance** is another system worth mastering. Whether building a portfolio or managing resources, the same principles of architecture and resilience apply. In this blog, I’ll dive into strategies for navigating both the tech and financial landscapes.
 
-Let’s connect! Check out my [Research](research.md) or the latest on **programming** and **system design** on my [Blog](blog/index.md). Reach out on [LinkedIn](https://www.linkedin.com/in/abhishekisnot) or shoot me an [email](mailto:osdevisnot@gmail.com) 📧.
+And, of course, **life** isn't just about work and money. It’s about finding balance, exploring new ideas, and reflecting on experiences that shape us. From lessons in **programming** to reflections on **life’s journey**, I’ll share insights that have helped me grow, both personally and professionally.
+
+Join me on this adventure, where we’ll explore the uncharted territories of **tech**, **finance**, and **life** - one construct at a time.
+
+Head over to my [Blog](blog/index.md) for my latest thoughts on **programming**, **system design**, and **finance**. Let’s connect on [LinkedIn](https://www.linkedin.com/in/abhishekisnot) if you want to chat!
