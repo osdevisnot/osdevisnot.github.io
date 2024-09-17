@@ -1,8 +1,12 @@
 ---
 title: Effective Code Reviews for Staff Engineers
 date: 2023-09-16
+authors:
+  - osdevisnot
 categories:
   - Coding
+hide:
+  - toc
 ---
 
 As a Staff Engineer, you’re responsible not just for writing code but for ensuring that your team consistently delivers high-quality, maintainable software. Yet, in my experience, I’ve rarely seen code reviews being truly effective at many companies. Too often, they become a rushed process, focusing on superficial details rather than meaningful improvements. A well-executed code review, however, can catch bugs, improve performance, ensure security, and serve as a tool for mentoring team members.
